@@ -85,12 +85,12 @@ def nothing(var):
 #Creates window to customize the HSV range
 cv2.namedWindow("Custom HSV Range")
 cv2.resizeWindow("HSV Range", 800, 320)
-cv2.createTrackbar("H-low", "HSV Range", 0, 179, nothing)
-cv2.createTrackbar("S-low","HSV Range", 0, 255, nothing)
-cv2.createTrackbar("V-low", "HSV Range", 0, 255, nothing)
-cv2.createTrackbar("H-up", "HSV Range", 0, 179, nothing)
-cv2.createTrackbar("S-up","HSV Range", 0, 255, nothing)
-cv2.createTrackbar("V-up", "HSV Range", 0, 255, nothing)
+cv2.createTrackbar("H-low", "Custom HSV Range", 0, 179, nothing)
+cv2.createTrackbar("S-low","Custom HSV Range", 0, 255, nothing)
+cv2.createTrackbar("V-low", "Custom HSV Range", 0, 255, nothing)
+cv2.createTrackbar("H-up", "Custom HSV Range", 0, 179, nothing)
+cv2.createTrackbar("S-up","Custom HSV Range", 0, 255, nothing)
+cv2.createTrackbar("V-up", "Custom HSV Range", 0, 255, nothing)
 
 while True:
 	ret, frame = cap.read()
