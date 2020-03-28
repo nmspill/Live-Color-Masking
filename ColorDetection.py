@@ -61,8 +61,6 @@ class gui(threading.Thread):
 
 menu = gui()
 
-# urls
-url = 'http://192.168.1.11:8080/video'
 cap = cv2.VideoCapture(0)
 
 # Colors
